@@ -4137,28 +4137,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='my_robot'>
-        <pose frame=''>0.999854 -2.00009 0.100002 -1e-06 0.000508 0.001925</pose>
-        <scale>1 1 1</scale>
-        <link name='left_wheel'>
-          <pose frame=''>0.999565 -1.85009 0.100002 -2e-06 0.000445 0.001925</pose>
-          <velocity>0.000896 -0.001205 0.004065 0.012071 0.008963 8e-06</velocity>
-          <acceleration>0.063188 -2.40492 8.13097 -0.991956 0.529212 -0.017297</acceleration>
-          <wrench>0.31594 -12.0246 40.6549 0 -0 0</wrench>
-        </link>
-        <link name='right_wheel'>
-          <pose frame=''>1.00014 -2.15009 0.100002 2e-06 0.001973 0.001925</pose>
-          <velocity>0.000897 -0.001209 0.000311 0.012084 0.008971 7e-06</velocity>
-          <acceleration>0.054563 -2.41408 0.622754 -0.965487 0.540228 -0.020641</acceleration>
-          <wrench>0.272814 -12.0704 3.11377 0 -0 0</wrench>
-        </link>
-        <link name='robot_footprint'>
-          <pose frame=''>0.999854 -2.00009 0.100002 -1e-06 0.000508 0.001925</pose>
-          <velocity>0.000897 -0.001146 0.002196 0.012339 0.008968 8e-06</velocity>
-          <acceleration>0.058893 -2.28317 4.3914 -0.433276 0.53622 -0.018637</acceleration>
-          <wrench>0.889285 -34.4759 66.3101 0 -0 0</wrench>
-        </link>
-      </model>
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
