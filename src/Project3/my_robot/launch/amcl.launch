@@ -12,12 +12,20 @@
         <param name="global_frame_id" value="map" />
 
         <!--My Parameters-->
+        <param name="laser_max_beams" value="50" />
+        <param name="laser_z_hit" value="0.5" />
+        <param name="laser_z_short" value="0.05" />
+        <param name="laser_z_max" value="0.05" />
+        <param name="recovery_alpha_slow" value="0.001" />
+        <param name="recovery_alpha_fast" value="0.1" />
+        <param name="update_min_d" value="0.1" />
+        <param name="update_min_a" value="0.261799" />
 
 
-        <!-- Initial pose here 0.737726 -1.50887 0.050795, -0.035344 0.00066 -0.059335 -->
-        <param name="initial_pose_x" value="0.737726" />
-        <param name="initial_pose_y" value="-1.50887" />
-        <param name="initial_pose_a" value="0.050795" />
+        <!-- Initial pose here 0, 0 -->
+        <param name="initial_pose_x" value="-2.0" />
+        <param name="initial_pose_y" value="-1.0" />
+        <param name="initial_pose_a" value="-1.5708" />
     </node>
 
     <!-- Move Base -->
